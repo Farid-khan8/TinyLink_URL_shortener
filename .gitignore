@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# Node modules (in case frontend has its own)
+node_modules/
+node_modules/
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment files (extra safety)
+*.env
+
+# Build / dist files
+dist/
+build/
+
+# VS Code settings
+.vscode/
