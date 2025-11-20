@@ -20,6 +20,7 @@ dist-ssr
 
 # Environment files (extra safety)
 *.env
+.env
 
 # Build / dist files
 dist/
