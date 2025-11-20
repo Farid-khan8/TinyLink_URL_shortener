@@ -1,9 +1,13 @@
 {
     "name": "url-shortener",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": "18"
     },
     "keywords": [],
     "author": "",
@@ -16,5 +20,8 @@
         "express-rate-limit": "^6.0.0",
         "mongoose": "^7.0.0",
         "zod": "^4.1.12"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
     }
 }
